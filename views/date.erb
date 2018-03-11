@@ -5,6 +5,7 @@
     </head>
     <body>
         <h1>Today</h1>
-        <p>The date is<%=Date.today%></p>
+        <% t = Time.now %>
+        <p>The date is<%=t.strftime("%A")"," t.strftime("%m") t.strftime("%d")"," t.strftime("%Y")%></p>
     </body>
 </html>
